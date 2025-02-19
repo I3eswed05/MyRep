@@ -19,5 +19,6 @@ public class Team {
             }
         }
         System.out.println(finalans);
+        sc.close();
     }
 }
