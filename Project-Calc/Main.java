@@ -1,11 +1,9 @@
-import javax.swing.SwingUtilities;
 
 public class Main
 {
-    public static void main(String[] args) {
-    SwingUtilities.invokeLater(() -> {
-        new MyFrame();
-    });
-}
+ public static void main(String[] args) {
+        // Create an instance of SimpleCalculator
+        new SimpleCalculator();
+    }
 
 }
